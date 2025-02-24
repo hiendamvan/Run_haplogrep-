@@ -3,7 +3,7 @@ import subprocess
 
 def run_haplogrep(input_file, output_file, tree_version="phylotree-rcrs@17.2"):
     command = [
-        "bash", "haplogrep3", "classify",
+        "bash", "/home/hiendamvan/haplogrep3", "classify",
         "--input", input_file,
         "--output", output_file,
         "--tree", tree_version
