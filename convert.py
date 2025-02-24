@@ -43,7 +43,7 @@ def write_hsd(file):
     output_folder = "output_hsd"
     os.makedirs(output_folder, exist_ok=True)  
     os.makedirs("output_haplogrep", exist_ok=True)
-    output_path = os.path.join(output_folder, f"output{name}.hsd")
+    output_path = os.path.join(output_folder, f"{file}.hsd")
     
     with open(output_path, 'w') as f:
         # write name

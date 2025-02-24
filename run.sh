@@ -7,4 +7,4 @@ echo "Converting $INPUT_FILE to hsd format"
 python3 convert.py "$INPUT_FILE" "$ID"
 
 echo "Running haplogrep"
-python3 haplogrep.py "./output_hsd/output$ID.hsd" "./output_haplogrep/output$ID"
+python3 haplogrep.py "./output_hsd/$ID.hsd" "./output_haplogrep/$ID"
